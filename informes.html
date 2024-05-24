@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cotizador de monedas - Informes</title>
+  <link rel="icon" href="./img/icons/coins.svg" type="image/x-icon">
+  <link rel="stylesheet" href="./css/common.css">
+  <link rel="stylesheet" href="./css/pages/informes.css">
+</head>
+<body class="page">
+  <header class="header">
+    <img src="./img/icons/coins.svg" alt="monedas">
+    <h1>Cotizador de monedas</h1>
+  </header>
+
+  <div class="page__content">
+    <section class="page__section">
+      <ul class="navigation">
+        <li>
+          <a href="./index.html" class="navigation-link">
+            <img src="./img/icons/home.svg" alt="inicio" class="navigation-link-icon">
+            Inicio
+          </a>
+        </li>
+        <li>
+          <a href="./miarchivo.html" class="navigation-link">
+            <img src="./img/icons/folder.svg" alt="archivo" class="navigation-link-icon">
+            Mi Archivo
+          </a>
+        </li>
+        <li>
+          <a href="./informes.html" class="navigation-link">
+            <img src="./img/icons/paper.svg" alt="informes" class="navigation-link-icon">
+            Informes
+          </a>
+        </li>
+        <li>
+          <a href="./contacto.html" class="navigation-link">
+            <img src="./img/icons/contact.svg" alt="contacto" class="navigation-link-icon">
+            Contactenos
+          </a>
+        </li>
+      </ul>
+      <div class="review-card">
+        <img src="./img/person.jpg" alt="persona">
+        <div>
+          <p><strong>Roger Medina</strong></p>
+          <p>Tienen muy buen servicio y las cotizaciones son siempre correctas.</p>
+        </div>
+      </div>
+    </section>
+    <main class="page__main">
+      <div class="page__title">
+        <h2>Informes</h2>
+        <p>Inicio / Informes</p>
+      </div>
+
+      <div class="currency__filter">
+        <label for="currency">Seleccione una moneda:</label>
+        <select name="currency" id="currency">
+          <option value="todas">todas</option>
+          <option value="dolar-blue">Dólar blue</option>
+          <option value="dolar-oficial">Dólar oficial</option>
+          <option value="dolar-bolsa">Dólar bolsa (MEP)</option>
+          <option value="dolar-liqui">Dólar contado con liqui (CCL)</option>
+          <option value="dolar-tarjeta">Dólar tarjeta</option>
+          <option value="dolar-mayorista">Dólar mayorista</option>
+          <option value="dolar-cripto">Dólar cripto</option>
+          <option value="euro">Euro</option>
+          <option value="real">Real brasileño</option>
+          <option value="peso-chileno">Peso chileno</option>
+          <option value="peso-uruguayo">Peso uruguayo</option>
+        </select>
+      </div>
+
+      <div class="send-inform">
+        <img src="./img/icons/mail.svg" alt="mail">
+        <p>Compartir información</p>
+      </div>
+
+      <div class="table__container">
+        <table cellspacing="0">
+          <thead>
+            <tr>
+              <th>Moneda</th>
+              <th>Fecha</th>
+              <th>Compra</th>
+              <th>Venta</th>
+              <th class="text-center">Variación</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td colspan="5" class="date-cell">Dólar blue</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>14/04/2024</td>
+              <td>$960</td>
+              <td>$1000.06</td>
+              <td class="text-center"><img src="./img/icons/up.svg" alt="up"></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>13/04/2024</td>
+              <td>$1355.2</td>
+              <td>$1419.2</td>
+              <td class="text-center"><img src="./img/icons/down.svg" alt="down"></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>12/04/2024</td>
+              <td>$1050</td>
+              <td>$1086</td>
+              <td class="text-center"><img src="./img/icons/down.svg" alt="down"></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>11/04/2024</td>
+              <td>$1000</td>
+              <td>$1200</td>
+              <td class="text-center"><img src="./img/icons/up.svg" alt="up"></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </main>
+  </div>
+
+  <footer class="footer">
+    <div class="footer__block">
+      <p class="footer__block-title">Institucional</p>
+      <ul class="footer__block-items">
+        <li>¿Quienes somos?</li>
+        <li>Socios estratégicos</li>
+        <li>Trabaje con nosotros</li>
+        <li>Ayuda</li>
+      </ul>
+    </div>
+
+    <div class="footer__block">
+      <p class="footer__block-title">Accesos</p>
+      <ul class="footer__block-items">
+        <li><a href="./index.html">Inicio</a></li>
+        <li><a href="./miarchivo.html">Mi archivo</a></li>
+        <li><a href="./informes.html">Informes</a></li>
+        <li><a href="./contacto.html">Contacto</a></li>
+      </ul>
+    </div>
+
+    <div class="footer__block">
+      <p class="footer__block-title">Contacto</p>
+      <ul class="footer__block-items">
+        <li>Universidad Tecnológica Nacional</li>
+        <li>Zeballos 1341 - S2000BQA - Rosario</li>
+        <li>0341 - 4481871</li>
+        <li>¡Escribanos!</li>
+      </ul>
+    </div>
+
+    <div class="footer__block">
+      <p>Desarrollado por</p>
+      <p>Rodolfo Meroi (53473)</p>
+      <p>TUP06 - 2024</p>
+    </div>
+
+    <p class="footer_description">TUP - Cátedra de Laboratorio de Computación 2 - Año 2024</p>
+  </footer>
+</body>
+</html>
