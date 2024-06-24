@@ -1,1 +1,1 @@
-# tup-lc2-cotizador-app
+**Alumnos**: Rodolfo Meroi, Santiago Landriel
