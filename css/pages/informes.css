@@ -15,6 +15,7 @@
 }
 
 .table__container {
+  margin-top: 1rem;
   overflow-x: auto;
 }
 
@@ -75,7 +76,7 @@ dialog form {
 }
 
 form input {
-  border: none;
+  border: 1px solid transparent;
   border-radius: .5rem;
   padding: .5rem;
 }
